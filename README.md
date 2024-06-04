@@ -1,7 +1,7 @@
-#Sorteador de Numeros
+# Sorteador de Numeros
 
-##Escopo
+## Escopo
 
---Programa criado por parte do primeiro desafio do [Curso 4 de Logica de programação](https://cursos.alura.com.br/course/logica-programacao-praticando-desafios) da Atura
+- Programa criado por parte do primeiro desafio do [Curso 4 de Logica de programação](https://cursos.alura.com.br/course/logica-programacao-praticando-desafios) da Alura
 
---Usuario insere a quantidade de numeros que deseja sortear, e o range onde os numeros sorteados devem ser tirados, informando o numero inicial e final do range. 
+- Usuario insere a quantidade de numeros que deseja sortear, e o range onde os numeros sorteados devem ser tirados, informando o numero inicial e final do range. 
