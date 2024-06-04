@@ -36,3 +36,20 @@ function embaralhaArray (array){
     }
     return array;
 }
+
+function limpaCampo() {
+    quantidade = document.getElementById('quantidade');
+    quantidade.value = '';
+    de = document.getElementById('de');
+    de.value = '';
+    ate = document.getElementById('ate');
+    ate.value = ''; 
+}
+
+function reiniciar() {
+    
+    limpaCampo();
+    exibirNaTela("nenhum até agora");
+    document.getElementById("btn-reiniciar").classList.remove("container__botao");
+    document.getElementById("btn-reiniciar").classList.add("container__botao-desabilitado");  
+}
