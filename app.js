@@ -6,6 +6,11 @@ function sortear() { //Função para funcionamento do botão sortear
     let resultado = [];
     let range = ate-de;
 
+    if (de >= ate) {
+        alert('Campo "Do numero" dever ser inferior ao campo "Até o numero". Verifique novamente!');
+        return
+    }
+
     //Condição para criação de um array sequencial do tamanho do range escolhido
     for (let i = 0; i < range+1; i++){
         numeroSorteado[i] = de++;
